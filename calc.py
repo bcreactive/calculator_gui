@@ -187,7 +187,7 @@ class Calculator(QtWidgets.QWidget):
                 except ZeroDivisionError:
                     self.display.setText("Don't!")
                 else:
-                    self.result = round(self.result, 6)  
+                    self.result = round(self.result, 4)  
                     self.result = str(self.result)
 
                     if self.result == "0.0":
