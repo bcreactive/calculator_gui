@@ -66,7 +66,7 @@ class Calculator(QtWidgets.QWidget):
         self.build_number("9")
 
     def button_point(self):
-        # Set a dot to get a decimal number.
+        # Set a dot to get a "decimal" number.
         if not "." in self.temp_number:
 
             if self.temp_number:
